@@ -1,0 +1,51 @@
+body {
+    background-image: url(fon.jpg);
+    border-top: 4px double brown;
+}
+
+.levo {
+    float: left;
+    width:15% ;
+    border-right: 4px double brown;
+    padding: 0 2% 0 0px;
+}
+.pravo {
+    float: right;
+    width: 82% ;
+}
+.baner {
+   border-bottom: 4px double brown;
+}
+.knopki {
+    border-radius: 10px;
+    border: 4px double brown;
+    text-align: center;
+   }
+.nav ul {
+    padding: 0; /* Убираем поля */
+    margin-left: 5px; /* Отступ слева */
+}
+.nav li a {
+    text-decoration: none;
+    color:brown;
+}
+.nav .menu {
+    list-style: none outside none;
+}
+.porodu {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    text-align: center; 
+}
+@media (max-width: 720px) {
+    .knopki {
+        font-size: 8px;
+      }
+}
